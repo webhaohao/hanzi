@@ -386,11 +386,13 @@ Page({
        viewHeight:596,
        res:[
         {
+          //图片有点问题
           src:'https://www.happyhao.top/img4/r93.svg',
           top:0,
           left:15,
           width:444,
-          height:596
+          height:596,
+          className:'heart'
         },  
         {
           src:'https://www.happyhao.top/img4/r94.svg',
@@ -460,7 +462,8 @@ Page({
           top:49,
           left:360,
           width:427,
-          height:314
+          height:314,
+          className:'heart'
         },
         {
           src:'https://www.happyhao.top/img4/r89.svg',
