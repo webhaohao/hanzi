@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container">
+      
+      <swiper
+          indicator-dots="{{indicatorDots}}"
+          interval="{{interval}}"
+          duration="{{duration}}"
+          indicator-color="rgba(255,255,255,.8)"
+          indicator-active-color="#f6d0b4"
+          autoplay="{{autoplay}}"
+          bindchange="swiper" 
+      >    
+      <swiper-item>
+          <view class="logo">
+                <image src="../img/logo.png" class="zoomIn animated"></image>
+          </view>
+    </swiper-item>
+    <swiper-item>
+          <view class="item">
+                 <view class="btn-group">
+                      <image src="../img/btn1.png"></image>
+                      <image src="../img/btn2.png" bindtap="jump"></image>
+                 </view> 
+                <image src="../img/s2.png" mode="widthFix" class="bottomImg {{index==1?'animated fadeInUpBig':''}}"></image>
+          </view>
+    </swiper-item>
+    <!-- <swiper-item>
+        <view class="item">
+               <view class="btn-group">
+                    <image src="../img/btn1.png"></image>
+                    <image src="../img/btn2.png" bindtap="jump"></image>
+               </view> 
+              <image src="../img/s3.png" mode="widthFix" class="bottomImg"></image>
+        </view>
+  </swiper-item> -->
+</swiper>
+</view>

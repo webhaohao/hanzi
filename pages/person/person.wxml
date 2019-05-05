@@ -1,0 +1,11 @@
+<view>
+    <view class="person">
+            <view class="info">  
+                    <image src="{{currentUrl}}" mode="widthFix"></image>
+            </view>  
+            <view class="btn-group">
+                    <image src="../img/p18.png" bindtap="back" mode="widthFix"></image>
+                    <image src="../img/p17.png" bindtap="jump" mode="widthFix"></image>
+            </view>
+    </view>
+</view>

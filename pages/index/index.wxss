@@ -1,0 +1,40 @@
+/**index.wxss**/
+.container{
+    background: url('http://www.happyhao.top/res/bg01.png');
+    position: fixed;
+    width:100%;
+    height:100%;
+}
+.logo image{
+    width:308rpx;
+    height:277rpx;
+}
+swiper{
+  width:100%;
+  height:100%;
+}
+swiper swiper-item .logo{
+    display:flex;
+    justify-content:center;
+    margin-top:228rpx;
+    width:100%;
+    height:100%;
+}
+.item .bottomImg{
+     width:100%;
+     position: absolute;
+     bottom:-100rpx;
+}
+.btn-group{
+    padding:40rpx 100rpx;
+    display:flex;
+    justify-content: space-between;
+}
+.btn-group image{
+    width:166rpx;
+    height:66rpx;
+}
+.lastBtn{
+    width:296rpx;
+    height:113rpx;
+}

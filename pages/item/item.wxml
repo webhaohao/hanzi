@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+        <view class="model {{isActive?'active':''}}">
+                <image src="../img/s3.png" mode="widthFix"></image>
+        </view>    
+        <view class="title">
+                <image src="../img/btn_arrow.png"></image>
+        </view>
+        <swiper
+            indicator-dots="{{indicatorDots}}"
+            interval="{{interval}}"
+            duration="{{duration}}"
+            indicator-color="rgba(255,255,255,.8)"
+            indicator-active-color="#f6d0b4"
+            easing-function="easeInCubic"
+            bindchange="swiper" 
+            circular="{{circular}}"
+        >    
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <view class="logo">
+                    <image src="{{item.src}}" bindload="imageLoad" data-index="{{index}}" data-name="{{item.name}}" style="width:{{item.width}}rpx;height:{{item.height}}rpx" bindtap="handle"></image>
+                </view>
+            </swiper-item>
+        </block>
+  </swiper>
+</view>
+  

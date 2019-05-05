@@ -1,0 +1,28 @@
+<view class="section">
+  <view class="title" hidden="{{hidden}}">
+           <image src="{{title}}" class="animated bounceInDown"></image> 
+  </view>
+  <movable-area class="wrap" style="background:url(http://www.happyhao.top/res/bg01.png)">
+    <movable-view  class=""
+      style="height:{{viewHeight}}px; width:{{viewWidth}}px;"
+      scale="{{scale}}"
+      inertia="{{true}}"
+      scale-min="0.5"
+      scale-max="10"
+      x="{{x}}"
+      y="{{y}}"
+      scale-value="{{scale_value}}"
+      direction="all" hidden="{{!hidden}}">
+      <view class="main">
+              <view class="bottom" hidden="{{isShowBottom}}"></view>
+              <view wx:for="{{res}}" wx:key="{{index}}">
+                  <image src="{{item.src}}" style="position:absolute;top:{{item.top}}px;left:{{item.left}}px;width:{{item.width}}px;height:{{item.height}}px;z-index:{{item.zindex}};" data-index="{{index}}" bindload="imageLoad" class="{{item.className}}" lazy-load="{{true}}"></image>
+              </view>
+              <!-- <image src="../img/r3.png" style="width:126px;height:127px;top:9px;left:356px;"></image>
+              <image src="../img/r2.png" style="width:324px;height:358px;position:absolute;top:215px;left:260px;z-index:10;"></image>
+              <image src="../img/r1.png" style="width:283px;height:261px;position: absolute;top:71px;right:53px;"/>
+              <image src="../img/person.png" alt="" mode="scaleToFill" style="width:128px;height:158px;position: absolute;top:156px;right:165px;"></image> -->
+      </view>
+    </movable-view>
+  </movable-area>
+</view>
