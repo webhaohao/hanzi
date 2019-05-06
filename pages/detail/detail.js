@@ -18,6 +18,8 @@ Page({
     //赵元任
     list_0:{
       title:'../img/title01.svg',
+      titleW:193,
+      titleH:61,
       text:'汉字里的轻声',
       viewWidth:802,
       viewHeight:596,
@@ -137,6 +139,8 @@ Page({
     list_1:{
         title:'../img/title02.svg',
         text:'被打乱的汉字对阅读的影响',
+        titleW:366,
+        titleH:61,
         viewWidth:870,
         viewHeight:596,
         res:[
@@ -262,6 +266,8 @@ Page({
     list_2:{
         title:'../img/title03.svg',
         text:'拆白道字',
+        titleW:132,
+        titleH:61,
         viewWidth:801,
         viewHeight:595,
         res:[
@@ -384,6 +390,8 @@ Page({
        text:'标点符号初解',
        viewWidth:870,
        viewHeight:596,
+       titleW:192,
+       titleH:61,
        res:[
         {
           //图片有点问题
@@ -500,6 +508,8 @@ Page({
     list_4:{
         title:'../img/title05.svg',
         text:'汉字笔画冗余探究',
+        titleW:249,
+        titleH:61,
         viewWidth:801,
         viewHeight:596,
         res:[
@@ -626,7 +636,9 @@ Page({
     },
     res:[
     ],
-    title:''
+    title:'',
+    titleW:192,
+    titleH:61
   },
 
   /**
@@ -641,6 +653,8 @@ Page({
               title:this.data.list_0.title,
               viewHeight:this.data.list_0.viewHeight,
               viewWidth:this.data.list_0.viewWidth,
+              titleW:this.data.list_0.titleW,
+              titleH:this.data.list_0.titleH,
               isShowBottom:false
           })
           wx.setNavigationBarTitle({
@@ -652,7 +666,9 @@ Page({
             res:this.data.list_1.res,
             title:this.data.list_1.title,
             viewHeight:this.data.list_1.viewHeight,
-            viewWidth:this.data.list_1.viewWidth
+            viewWidth:this.data.list_1.viewWidth,
+            titleW:this.data.list_1.titleW,
+            titleH:this.data.list_1.titleH
           })
           wx.setNavigationBarTitle({
               title: this.data.list_1.text
@@ -663,7 +679,9 @@ Page({
             res:this.data.list_4.res,
             title:this.data.list_4.title,
             viewHeight:this.data.list_4.viewHeight,
-            viewWidth:this.data.list_4.viewWidth
+            viewWidth:this.data.list_4.viewWidth,
+            titleW:this.data.list_4.titleW,
+            titleH:this.data.list_4.titleH
           })
           wx.setNavigationBarTitle({
               title: this.data.list_4.text
@@ -674,7 +692,9 @@ Page({
              res:this.data.list_3.res,
              title:this.data.list_3.title,
              viewHeight:this.data.list_3.viewHeight,
-             viewWidth:this.data.list_3.viewWidth
+             viewWidth:this.data.list_3.viewWidth,
+             titleW:this.data.list_3.titleW,
+             titleH:this.data.list_3.titleH
           })
           wx.setNavigationBarTitle({
             title: this.data.list_3.text
@@ -686,7 +706,9 @@ Page({
             res:this.data.list_2.res,
             title:this.data.list_2.title,
             viewHeight:this.data.list_2.viewHeight,
-            viewWidth:this.data.list_2.viewWidth
+            viewWidth:this.data.list_2.viewWidth,
+            titleW:this.data.list_2.titleW,
+            titleH:this.data.list_2.titleH
          })
          wx.setNavigationBarTitle({
            title: this.data.list_2.text

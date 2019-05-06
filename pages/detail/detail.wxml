@@ -1,6 +1,6 @@
 <view class="section">
   <view class="title" hidden="{{hidden}}">
-           <image src="{{title}}" class="animated bounceInDown"></image> 
+           <image src="{{title}}" class="animated bounceInDown" style="width:{{titleW}}rpx;height:{{titleH}}rpx;"></image> 
   </view>
   <movable-area class="wrap" style="background:url(http://www.happyhao.top/res/bg01.png)">
     <movable-view  class=""
