@@ -42,14 +42,18 @@ Page({
           className:'heart' 
        },
       {
-          src:'https://www.happyhao.top/img/r1.png',
+          src:'https://www.happyhao.top/img/r1.svg',
           top:100,
-          left:440
+          left:440,
+          width:282,
+          height:260
       },
       {
           src:'https://www.happyhao.top/img/r16.svg',
           top:159,
-          left:528 
+          left:518,
+          width:127,
+          height:157 
       },
       {
           src:'https://www.happyhao.top/img/r30.svg',
@@ -70,16 +74,26 @@ Page({
       },
       {
         src:'https://www.happyhao.top/img/r18.svg',
-        top:140,
-        left:440,
+        top:165,
+        left:455,
         width:90,
         height:126,
         className:'heart' 
       },
       {
-        src:'https://www.happyhao.top/img/r8.png',
+        src:'https://www.happyhao.top/img/r42.svg',
+        top:140,
+        left:440,
+        width:41,
+        height:51,
+        className:'heart' 
+      },
+      {
+        src:'https://www.happyhao.top/img/r8.svg',
         top:274,
-        left:563
+        left:563,
+        width:81,
+        height:68
       },
       {
         src:'https://www.happyhao.top/img/r27.svg',
@@ -96,6 +110,13 @@ Page({
         height:33
       },
       {
+        src:'https://www.happyhao.top/img/r45.svg',
+        top:128,
+        left:46,
+        width:212,
+        height:176
+      },
+      {
         src:'https://www.happyhao.top/img/r31.svg',
         top:256,
         left:30,
@@ -107,7 +128,8 @@ Page({
         top:312,
         left:68,
         width:56,
-        height:10
+        height:10,
+        className:'move'
       },
       {
         src:'https://www.happyhao.top/img/r39.svg',
@@ -119,7 +141,7 @@ Page({
       },
       {
         src:'https://www.happyhao.top/img/r13.svg',
-        top:40,
+        top:20,
         left:540,
         width:68,
         height:135,
@@ -127,8 +149,8 @@ Page({
       },
       {
         src:'https://www.happyhao.top/img/r12.svg',
-        top:130,
-        left:578,
+        top:120,
+        left:568,
         width:55,
         height:62,
         zindex:20
@@ -162,7 +184,7 @@ Page({
           {
             src:'https://www.happyhao.top/img2/r106.svg',
             top:142,
-            left:458,
+            left:480,
             width:370,
             height:249
           },
@@ -209,7 +231,7 @@ Page({
           },
           {
             src:'https://www.happyhao.top/img2/r105.svg',
-            top:213,
+            top:195,
             left:697,
             width:120,
             height:190,
@@ -233,8 +255,8 @@ Page({
           },
           {
             src:'https://www.happyhao.top/img2/r104.svg',
-            top:375,
-            left:773,
+            top:360,
+            left:760,
             width:88,
             height:51
           },
@@ -255,9 +277,25 @@ Page({
           {
             src:'https://www.happyhao.top/img2/r115.svg',
             top:240,
-            left:464,
-            width:33,
-            height:24,
+            left:415,
+            width:136,
+            height:32,
+            zindex:50
+          },
+          {
+            src:'https://www.happyhao.top/img2/r129.svg',
+            top:320,
+            left:310,
+            width:82,
+            height:29,
+            zindex:50
+          },
+          {
+            src:'https://www.happyhao.top/img2/r132.svg',
+            top:270,
+            left:400,
+            width:113,
+            height:89,
             zindex:50
           }
         ]
@@ -361,11 +399,19 @@ Page({
           },
           {
             src:'https://www.happyhao.top/img3/r79.svg',
-            top:287,
+            top:255,
             left:308,
             width:350,
             height:272,
             zindex:30
+          },
+          {
+            src:'https://www.happyhao.top/img3/r200.svg',
+            top:495,
+            left:580,
+            width:72,
+            height:69,
+            zindex:50
           },
           {
             src:'https://www.happyhao.top/img3/r80.svg',
@@ -398,7 +444,7 @@ Page({
           src:'https://www.happyhao.top/img4/r93.svg',
           top:0,
           left:15,
-          width:444,
+          width:441,
           height:596,
           className:'heart'
         },  
@@ -407,7 +453,16 @@ Page({
           top:328,
           left:55,
           width:227,
-          height:232 
+          height:232,
+          zindex:30 
+        },
+        {
+          src:'https://www.happyhao.top/img4/r152.svg',
+          top:378,
+          left:117,
+          width:84,
+          height:116,
+          zindex:40 
         },
         {
           src:'https://www.happyhao.top/img4/r96.svg',
@@ -415,6 +470,13 @@ Page({
           left:390,
           width:205,
           height:211
+        },
+        {
+          src:'https://www.happyhao.top/img4/r150.svg',
+          top:396,
+          left:423,
+          width:86,
+          height:108
         },
         {
           src:'https://www.happyhao.top/img4/r91.svg',
@@ -453,7 +515,7 @@ Page({
         },
         {
           src:'https://www.happyhao.top/img4/r85.svg',
-          top:430,
+          top:335,
           left:130,
           width:369,
           height:373
@@ -461,17 +523,40 @@ Page({
         {
           src:'https://www.happyhao.top/img4/r92.svg',
           top:500,
-          left:481,
+          left:451,
           width:219,
           height:98
         },
         {
+          src:'https://www.happyhao.top/img4/r151.svg',
+          top:516,
+          left:498,
+          width:82,
+          height:46
+        },
+        {
           src:'https://www.happyhao.top/img4/r86.svg',
-          top:49,
-          left:360,
+          top:53,
+          left:355,
           width:427,
           height:314,
           className:'heart'
+        },
+        {
+          src:'https://www.happyhao.top/img4/r120.svg',
+          top:135,
+          left:375,
+          width:310,
+          height:185,
+          className:'heart' 
+        },
+        {
+          src:'https://www.happyhao.top/img4/r121.svg',
+          top:230,
+          left:10,
+          width:72,
+          height:179,
+          className:'heart' 
         },
         {
           src:'https://www.happyhao.top/img4/r89.svg',
@@ -483,7 +568,7 @@ Page({
         {
           src:'https://www.happyhao.top/img4/r95.svg',
           top:464,
-          left:20,
+          left:10,
           width:55,
           height:93
         },
@@ -562,7 +647,14 @@ Page({
             top:12,
             left:198,
             width:328,
-            height:175
+            height:275
+          },
+          {
+            src:'https://www.happyhao.top/img5/r100.svg',
+            top:100,
+            left:360,
+            width:104,
+            height:74
           },
           {
             src:'https://www.happyhao.top/img5/r57.svg',
@@ -612,7 +704,7 @@ Page({
           {
             src:'https://www.happyhao.top/img5/r49.svg',
             top:20,
-            left:370,
+            left:385,
             width:48,
             height:64
           },
