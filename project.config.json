@@ -5,11 +5,12 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "wxeea52f472e9ad000",
+	"appid": "wx92e84d37a4b9a680",
 	"projectname": "hanzi",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},

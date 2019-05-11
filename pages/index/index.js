@@ -61,5 +61,10 @@ Page({
     wx.navigateTo({
       url: '../item/item'
     })
+  },
+  jumpWeb(){
+    wx.navigateTo({
+      url: '../webView/webView'
+    })
   }
 })

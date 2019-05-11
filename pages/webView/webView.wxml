@@ -1,0 +1,4 @@
+<!--pages/webView/webView.wxml-->
+<view>
+      <web-view src="https://www.happyhao.top/fly_game/index.html"></web-view>
+</view>

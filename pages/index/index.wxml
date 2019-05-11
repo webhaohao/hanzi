@@ -18,7 +18,7 @@
     <swiper-item>
           <view class="item">
                  <view class="btn-group">
-                      <image src="../img/btn1.png"></image>
+                      <image src="../img/btn1.png" bindtap="jumpWeb"></image>
                       <image src="../img/btn2.png" bindtap="jump"></image>
                  </view> 
                 <image src="../img/s2.png" mode="widthFix" class="bottomImg {{index==1?'animated fadeInUpBig':''}}"></image>
